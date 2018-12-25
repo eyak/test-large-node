@@ -1,0 +1,30 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js localhost 8080"
+  },
+  "dependencies": {
+    "bootstrap": "4.2.1",
+    "express": "4.16.4",
+    "jquery": "3.3.1",
+    "react": "16.7.0",
+    "react-ace": "latest",
+    "react-boot": "0.0.2",
+    "react-dom": "16.7.0",
+    "react-jsonschema-form": "1.0.6",
+    "react-jsonschema-form-extras": "0.9.28",
+    "react-rte": "0.16.1",
+    "request": "^2.88.0",
+    "oboe": "2.1.4",
+    "whatwg-fetch": "^3.0.0",
+    "@app-masters/react-cloudinary-uploader": "0.1.41",
+    "proper-url-join": "*"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
